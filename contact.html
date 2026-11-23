@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cofee Shop</title>
+    <!--Link to css-->
+    <link rel="stylesheet" href="css/style.css"/>
+    <!--Box icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'/>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+   
+</head>
+
+<header>
+    <!--Nav-->
+    <div class="nav container">
+        <!--Logo-->
+        <a href="#" class="logo">Bean & Blow Cafe</a>
+        <!--Nav bar-->
+        <div class="navbar">
+            <a href="http://127.0.0.1:5500/index.html" class="nav-link">Home</a>            
+            <a href="http://127.0.0.1:5500/shop.html" class="nav-link">Shop</a>         
+            <a href="http://127.0.0.1:5500/contact.html" class="nav-link">Contact</a>    
+                
+        </div>
+       
+        <!--Nav icons-->
+    <div class="nav-icons">
+        <a href="http://127.0.0.1:5500/login.html" class="nav-icon">
+            <i class='bx bx-user' id="signin"></i> Sign In
+        </a>
+     <div class="cart-icon">
+            <a href="#">
+                <i class='bx bxs-cart bx-md'></i>
+                <span class="cart-count">0</span>
+            </a>
+        </div>
+</div>
+</header>
+
+<body>
+    <!-- Contact Section -->
+ <section class="contact container">
+    <div class="heading heading-background">
+    <h2>Contact Us</h2>
+</div>
+    <form action="submit_form.php" method="POST">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn">Send Message</button>
+    </form>
+</section>
+
+ <!-- Footer Section -->
+ <section class="footer container">        
+    <div class="footer-box">
+        <a href="#" class="logo">Bean & Blow Cafe</a>
+        <div class="social-links">
+            <a href="#"><i class= "bx bxl-instagram-alt bx-lg"></i></a>
+            <a href=""><i class='bx bxl-facebook-circle bx-lg'></i></a>
+            <a href=""><i class='bx bxl-twitter bx-lg' ></i></a>
+        </div>
+    </div>
+    <div  class="footer-box">
+        <h3>Address</h3>
+        <p>Bean & Bloom Cafe Lanka Pvt Ltd,<br> No. 101, <br>Private Drive Road,<br>Galle.</p>
+        <p >Tel: 0712397198</p>            
+        <h3 class="open">Open Hours</h3>
+          <p>Monday-Sunday-9am-8pm</p>                    
+    </div>
+    <div class="footer-box">
+        <h3>Services</h3>
+        <a href="#">Payment Options</a>
+        <a href="">Privacy Policy</a>
+        <a href="">Terms & Conditions</a>
+    </div>   
+</section>
+ <!--Link to JS-->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="js/main.js"></script>
+</body>
+
