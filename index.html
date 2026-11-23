@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cofee Shop</title>
+    <!--Link to css-->
+    <link rel="stylesheet" href="css/style.css"/>
+    <!--Box icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'/>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+   
+</head>
+<body>
+
+
+
+    <!--Header-->
+    <header>
+        <!--Nav-->
+        <div class="nav container">
+            <!--Logo-->
+            <a href="#" class="logo">Bean & Blow Cafe</a>
+            <!--Nav bar-->
+            <div class="navbar">
+                <a href="#home" class="nav-link">Home</a>                               
+                <a href="#about" class="nav-link">About Us</a>
+                <a href="#service" class="nav-link">Services</a> 
+                <a href="#reviews" class="nav-link">Reviews</a> 
+                <a href="http://127.0.0.1:5500/contact.html" class="nav-link">Contact</a>
+                <a href="#booking" class="nav-link">Booking</a> 
+                <a href="http://127.0.0.1:5500/shop.html" class="nav-link">Shop</a>
+                    
+            </div>           
+            <!--Nav icons-->
+            <div class="nav-icons">
+                <a href="http://127.0.0.1:5500/login.html" class="nav-icon">
+                    <i class='bx bx-user' id="signin" title="go to signin page"></i> Sign In
+                </a>
+         <div class="cart-icon">
+                <a href="#">
+                    <i class='bx bxs-cart bx-md nav-link'></i>
+                    <span class="cart-count">0</span>
+                </a>
+            </div>
+    </div>
+    </header>
+
+  <!--Home-->
+  <section class="home container" id="home">
+    <!-- Swiper -->
+    <div class="swiper homeSwiper">
+        <div class="swiper-wrapper">
+            <!-- Slide 1 -->
+            <div class="swiper-slide">
+                <img src="images/coffepeople.jpg" alt="home image" class="home img">
+                <div class="text-box">
+                    <h1 class="home-text">
+                        Where Every Sip <br />
+                        <span>Feels Like Home</span>
+                    </h1>
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="swiper-slide">
+                <img src="images/homeimg.webp" alt="home image" class="home img">
+                <div class="text-box">
+                    <h1 class="home-text">
+                        Where Every Sip <br />
+                        <span>Feels Like Home</span>
+                    </h1>
+                </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="swiper-slide">
+                <img src="images/homeimg4.jpg" alt="home image" class="home img">
+                <div class="text-box">
+                    <h1 class="home-text">
+                        Where Every Sip <br />
+                        <span>Feels Like Home</span>
+                    </h1>
+                </div>
+            </div>
+        </div>
+
+        <!--  Pagination  -->
+        <div class="swiper-pagination"></div>
+        
+    </div>
+</section>
+
+
+<section class="container" id="about">
+    <div class="heading">          
+        <h2>About</h2>
+    </div>
+    <div class="about">
+        <p id="about-text">At Bean & Bloom Café, we believe that a great cup of coffee 
+            <br> can brighten any.<br>  Our story began with a love for quality coffee, crafted with care and served with warmth. <br>
+             Nestled in the heart of the community, we’ve created a welcoming space  for coffee lovers <br>
+             and friends to gather, relax, and enjoy the little moments that make life special.
+
+            We source our beans responsibly, supporting farmers who are as passionate about <br>
+            coffee as we are. 
+            From classic espressos and velvety lattes to seasonal blends and indulgent treats, <br>
+            every sip and bite is designed to bring joy and comfort.
+            
+            Come by for a cozy spot, friendly faces, and that perfect cup that <br> feels just like home.</p>
+           <img src="/images/about.jpg" alt="two people smiling in cafe"class="about-image" >
+    </div>
+          
+        
+</section>  
+
+<!-- Services Section -->
+<section class="service container" id="service">
+    <div class="heading">
+    <h2>Our Services</h2>
+</div>
+    <div class="service-items">
+        <div class="service-item">
+            <div class="heading">
+            <h3>Outdoor Seating</h3>
+        </div>
+        <img src="/images/outdoor.webp" alt="outdoor seat" class="image">
+            <p>Relax and enjoy your drink in our cozy outdoor seating area.</p>
+        </div>
+        <div class="service-item">
+            <div class="heading">
+            <h3>Takeaway</h3>
+        </div>
+        <img src="/images/takeaway.jpeg" alt="takeaway" class="image">
+            <p>Grab your coffee on the go with our convenient takeaway service.</p>
+        </div>
+        <div class="service-item">
+            <div class="heading">
+            <h3>Free WiFi</h3>
+        </div>            
+            <img src="/images/wifi.jpeg" alt="wifi facility" class="image">
+            <p>Enjoy complimentary high-speed internet while you sip your coffee.</p>
+        </div>        
+    </div>
+</section>
+
+    <!--Review-->
+    <section class="review container" id="reviews">
+        <div class="heading">
+            <h2>Customer's reviews</h2>
+        </div>        
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+
+                <!--slide one-->
+                <div class="swiper-slide">
+                    <div class="review-box">
+                        <img src="images/review-1.jpg" alt="">
+                        <h2>Jonas Blue</h2>
+                        <span>The taste of coffee is stunning,<br/>
+                         subtle and smooth flavor.</span>
+                    </div> 
+                </div>              
+                    <div class="swiper-slide">
+                        <div class="review-box">
+                            <img src="images/review-2.jpg" alt="">
+                            <h2>Eden Blue</h2>
+                            <span>The taste of coffee is stunning,<br/>
+                            subtle and smooth flavor.</span>
+                        </div>                       
+                    </div>                    
+                    
+                       <div class="swiper-slide">
+                        <div class="review-box">
+                            <img src="images/review-3.jpg" alt="">
+                            <h2>Charlie</h2>
+                            <span>The taste of coffee is stunning,<br/>
+                            subtle and smooth flavor.</span>
+                        </div>
+                  </div>                   
+           </div>
+     </div>
+</section>
+   
+    <!--Booking-->
+    <section class="book container" id="booking">
+        <img src="images/book.jpg" alt="" class="book-img"/> 
+        <div class="book-overlay"></div>
+        <div class="book-data">
+            <h2>Let's book a table <br/>
+                For you
+            </h2>        
+            <form action="book">
+                <div class="input-box">
+                    <i class='bx bx-phone-call'></i>
+                    <input type="tel" name="" placeholder="Your Number" id="" required/>
+                </div>
+
+                <div class="input-box">
+                    <i class='bx bx-user'></i>
+                    <input type="number" name="" placeholder="People" id="" required/>
+                </div>
+                <button class="book-btn" >Book A Table</button>
+            </form>       
+            <p>We will contact you to confirm your booking</p>
+        </div>
+    
+    </section>
+
+     <!-- Footer Section -->
+     <section class="footer container">        
+        <div class="footer-box">
+            <a href="#" class="logo">Bean & Blow Cafe</a>
+            <div class="social-links">
+                <a href="#"><i class= "bx bxl-instagram-alt bx-lg"></i></a>
+                <a href=""><i class='bx bxl-facebook-circle bx-lg'></i></a>
+                <a href=""><i class='bx bxl-twitter bx-lg' ></i></a>
+            </div>
+        </div>
+        <div  class="footer-box">
+            <h3>Address</h3>
+            <p>Bean & Bloom Cafe Lanka Pvt Ltd,<br> No. 101, <br>Private Drive Road,<br>Galle.</p>
+            <p >Tel: 0712397198</p>            
+            <h3 class="open">Open Hours</h3>
+                <p>Monday-Sunday-9am-8pm</p>   
+        </div>
+        <div class="footer-box">
+            <h3>Services</h3>
+            <a href="#">Payment Options</a>
+            <a href="">Privacy Policy</a>
+            <a href="">Terms & Conditions</a>
+        </div>   
+    </section>
+    <p class="copyright">&copy; 2024 Bean & Bloom Café. All rights reserved.</p>
+    <!--Back to top button-->
+    <button id="backToTop"><span> <i class='bx bx-caret-up bx-md'></i></span>
+        <span>Top</span></button>
+
+    <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+    <!--Link to JS-->
+    <script src="js/main.js"></script>
+</body>
+</html>
