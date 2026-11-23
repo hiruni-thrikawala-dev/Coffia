@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cofee Shop</title>
+    <!--Link to css-->
+    <link rel="stylesheet" href="css/style.css"/>
+    <!--Box icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'/>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+   
+</head>
+<body>
+
+  <header>
+    <!--Nav-->
+    <div class="nav container">
+        <!--Logo-->
+        <a href="#" class="logo">Bean & Blow Cafe</a>
+        <!--Nav bar-->
+        <div class="login-navbar">
+            <a href="http://127.0.0.1:5500/index.html" class="nav-link">Home</a>
+            <a href="http://127.0.0.1:5500/shop.html" class="nav-link">Shop</a>
+            <a href="http://127.0.0.1:5500/contact.html" class="nav-link">Contact</a>                            
+        </div>       
+        <!--Nav icons-->
+    <div class="nav-icons">
+      <i class='bx bxs-user bx-md nav-link'></i>
+</div>
+</header>
+
+  <section>
+    <div class="heading container heading-background" id="login">
+      <h2>My Account</h2>
+    </div>
+    <div class="login container">          
+      <form class="login-form" id="loginForm">
+        <h2 class="heading">Login <br><span>Login If you're already a customer.</span> </h2>
+        <input type="text" id="usernameOne" placeholder="Enter your username" required />
+        <input type="password" id="passwordOne" placeholder="Enter your password" required />
+        <a href="#" title="click here">forgot password</a>        
+        <button type="submit" class="btn">Login</button>
+      </form>
+  
+      <form class="login-form" id="registerForm">
+        <h2 class="heading">Register<br><span>If you’re a new customer, please register your details.</span></h2>
+        <input type="email" id="email" placeholder="Enter your Email Address" required />
+        <input type="text" id="username" placeholder="Enter your username" required />
+        <input type="password" id="password" placeholder="Enter your password" required />
+        <button type="submit" class=" btn" id="btnRegister">Register</button>
+      </form> 
+         
+    </div>  
+</section>
+  
+   <!-- Footer Section -->
+    <section class="footer container">        
+      <div class="footer-box">
+          <a href="#" class="logo">Bean & Blow Cafe</a>
+          <div class="social-links">
+              <a href="#"><i class= "bx bxl-instagram-alt bx-lg"></i></a>
+              <a href=""><i class='bx bxl-facebook-circle bx-lg'></i></a>
+              <a href=""><i class='bx bxl-twitter bx-lg' ></i></a>
+          </div>
+      </div>
+      <div  class="footer-box">
+          <h3>Address</h3>
+          <p>Bean & Bloom Cafe Lanka Pvt Ltd,<br> No. 101, <br>Private Drive Road,<br>Galle.</p>
+          <p >Tel: 0712397198</p>            
+          <h3 class="open">Open Hours</h3>
+            <p>Monday-Sunday-9am-8pm</p>                    
+      </div>
+      <div class="footer-box">
+          <h3>Services</h3>
+          <a href="#">Payment Options</a>
+          <a href="">Privacy Policy</a>
+          <a href="">Terms & Conditions</a>
+      </div>   
+  </section>
+  <p class="copyright">&copy; 2024 Bean & Bloom Café. All rights reserved.</p>
+
+  <!--Link to JS-->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="js/main.js"></script>
+</body>
